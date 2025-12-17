@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <form action="mailto:ranzuurai870@gmail.com" method="post" enctype="text/plain">
+        <p>
+        <label for="username">Username</label>
+        <input required type="text" id="username" name="username">
+        </p>
+         <p> 
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+        </p>
+        <p>
+            <h4>select gender</h4>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male" id="male">
+             <label for="female">FeMale</label>
+            <input type="radio" name="gender" value="female" id="female">
+        </p>
+        <p>
+             <h4>select habits</h4>
+            <label for="sing">sing</label>
+            <input type="checkbox" name="habits" value="sing" id="sing">
+             <label for="dance">dance</label>
+            <input type="checkbox name="habits" value="dance" id="dance">
+        </p>
+
+        <p>
+            <label for="date"></label>
+            <input type="date" name="join" id="date">
+        </p>
+        <p>
+            <!-- drop down -->
+             <label for="country">select country</label>
+             <select name="country" id="country">
+                <option value="nepal">nepal</option>
+             </select>
+        </p>
+        <p>
+            <textarea name="message" id="msg"></textarea>
+        </p>
+        <p>
+            <input type="datetime">
+            <input type="file">
+        </p>
+        
+
+        <button type="submit">Submit</button>
+        <button type="reset">reset</button>
+    </form>
+</body>
+</html>
