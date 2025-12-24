@@ -1,0 +1,118 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        li:nth-child(2){
+            color: blueviolet;
+        }
+        li:first-child{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+        <li>apple</li>
+        <li>banana</li>
+        <li>carrot</li>
+        <li>Dragon fruit</li>
+    </ol>
+
+    
+</body>
+</html>-->
+
+<!--hover,before,after
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+    <style>
+        .bx h1:hover{
+            color: red;
+        }
+        .bx p::before{
+            content: "hi";
+            color: chartreuse;
+        }
+        .bx p::after{
+            content: "goodbye";
+            color: chartreuse;
+            size: 20px;
+        }
+        span{
+            color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="bx">
+        <h1>HELLO</h1>
+        <p>Lorem ipsum, <span>dolor</span> sit amet consectetur adipisicing elit. Velit voluptatem corrupti, eum non dignissimos in culpa molestias nobis mollitia suscipit corporis repellat praesentium blanditiis debitis odio laborum voluptatibus reprehenderit alias?</p>
+    </div>
+</body>
+</html>-->
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute selector</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            padding: 10px;
+        }
+        input[type='text']{
+            background-color: aqua;
+        }
+        input:focus{
+            color: red;
+        }
+        input[type='email']:focus{
+            color: blue;
+
+        }
+        p, span, h1{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>hello</p>
+    <span>sello</span>
+    <h1>bello</h1>
+    <input type="text" placeholder="username">
+    <input type="text" placeholder="feedbacks">
+    <input type="email" placeholder="@gmail.com">
+</body>
+</html>-->
+<!--Typography-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        p{
+            text-decoration: underline 2px red;
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam a dicta sequi quibusdam necessitatibus saepe officia, eos sit nulla magni, numquam non recusandae corporis provident perferendis atque illo deserunt quia.</p>
+</body>
+</html>
